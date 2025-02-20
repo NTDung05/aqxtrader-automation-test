@@ -53,7 +53,7 @@ def test_user_able_partial_close_open_position():
     #Step 7: Verify alert
     common_page.verify_successful_notification_alert_is_displayed("Close Order")
 
-def test_user_able_close_open_position():
+def test_user_able_close_all_open_position():
     # step 1: log in webpage
     login_page.login(GLOBAL_VARIABLES.page_url, GLOBAL_VARIABLES.userName, GLOBAL_VARIABLES.passWord)
     # step 2: Go to Assets page
