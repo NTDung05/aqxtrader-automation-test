@@ -10,7 +10,7 @@ driver = webdriver.Chrome()
 common_page = CommonPage(driver)
 login_page = LoginPage(driver)
 
-def test_user_able_edit_pending_limit_order():
+def validate_order_history_data():
     #step 1: log in webpage
     login_page.login(GLOBAL_VARIABLES.page_url, GLOBAL_VARIABLES.userName, GLOBAL_VARIABLES.passWord)
     #step 2: Go to Assets Page
